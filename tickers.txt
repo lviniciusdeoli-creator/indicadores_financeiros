@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────
+# LISTA DE TICKERS MONITORADOS
+# ─────────────────────────────────────────────────────────────
+# • Um ticker por linha, ou múltiplos separados por vírgula
+# • Linhas que começam com # são ignoradas (comentários)
+# • Ações brasileiras: adicione o sufixo .SA  (ex: PETR4.SA)
+# • Ações americanas:  sem sufixo             (ex: AAPL)
+# • ETFs brasileiros:  sufixo .SA             (ex: BOVA11.SA)
+# ─────────────────────────────────────────────────────────────
+ 
+# === AÇÕES BRASILEIRAS =======================================
+PETR4.SA
+VALE3.SA
+ITUB4.SA
+WEGE3.SA
+BBAS3.SA
+RENT3.SA
+RADL3.SA
+ 
+# === AÇÕES AMERICANAS ========================================
+AAPL
+MSFT
+GOOGL
+AMZN
+NVDA
+ 
+# === ETFs ====================================================
+# BOVA11.SA
+# IVVB11.SA

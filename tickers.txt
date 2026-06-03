@@ -5,25 +5,29 @@
 # • Linhas que começam com # são ignoradas (comentários)
 # • Ações brasileiras: adicione o sufixo .SA  (ex: PETR4.SA)
 # • Ações americanas:  sem sufixo             (ex: AAPL)
-# • ETFs brasileiros:  sufixo .SA             (ex: BOVA11.SA)
 # ─────────────────────────────────────────────────────────────
  
 # === AÇÕES BRASILEIRAS =======================================
-PETR4.SA
-VALE3.SA
-ITUB4.SA
-WEGE3.SA
 BBAS3.SA
-RENT3.SA
-RADL3.SA
+ITUB4.SA
+BBSE3.SA
+WEGE3.SA
+EMBJ3.SA
+VALE3.SA
+KLBN11.SA
+PETR4.SA
+SAPR11.SA
+CMIG4.SA
+TAEE11.SA
  
 # === AÇÕES AMERICANAS ========================================
+AMZN
+MCD
+KO
+BRK.B
+BAC
 AAPL
 MSFT
-GOOGL
-AMZN
 NVDA
- 
-# === ETFs ====================================================
-# BOVA11.SA
-# IVVB11.SA
+CVX
+AZN

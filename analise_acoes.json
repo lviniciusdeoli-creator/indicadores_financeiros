@@ -1,0 +1,202 @@
+{
+  "_metadados": {
+    "script": "Análise Fundamentalista de Ações",
+    "versao": "1.1",
+    "data_execucao": "2026-06-03 00:59:44",
+    "total_ativos": 1,
+    "sucesso": 1,
+    "falhas": 0,
+    "ativos_solicitados": [
+      "VALE3.SA"
+    ],
+    "fonte": "Yahoo Finance via yfinance",
+    "nota": "Sufixo _bi = bilhões | _mi = milhões | _pct = percentual já convertido. None indica dado indisponível na fonte."
+  },
+  "acoes": {
+    "VALE3.SA": {
+      "identificacao": {
+        "ticker": "VALE3.SA",
+        "nome": "Vale S.A.",
+        "setor": "Basic Materials",
+        "industria": "Other Industrial Metals & Mining",
+        "pais": "Brazil",
+        "moeda": "BRL",
+        "bolsa": "SAO",
+        "site": "https://vale.com",
+        "resumo_negocio": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil."
+      },
+      "meta": {
+        "data_coleta": "2026-06-03 00:59:44",
+        "fonte_principal": "Yahoo Finance via yfinance"
+      },
+      "valuation": {
+        "preco_atual": 85.0,
+        "pe_ratio_trailing": 25.525526,
+        "pe_ratio_forward": 9.2118635,
+        "pb_ratio": 1.8956711,
+        "ps_ratio": 1.6864985,
+        "ev_ebitda": 5.797,
+        "ev_receita": 2.102,
+        "eps_ttm": 3.33,
+        "eps_forward": 9.227232,
+        "dividend_yield_ttm_pct": 8.44,
+        "dividendo_por_acao": 6.9,
+        "payout_ratio_pct": 117.46,
+        "peg_ratio": 0.34
+      },
+      "rentabilidade": {
+        "gross_margin_pct": 35.08,
+        "operating_margin_pct": 28.12,
+        "profit_margin_pct": 7.26,
+        "roe_pct": 6.84,
+        "roa_pct": 8.19,
+        "roi_estimado_pct": null,
+        "crescimento_receita_yoy_pct": 2.7,
+        "crescimento_lucro_yoy_pct": 22.0,
+        "crescimento_eps_qoq_pct": 21.9
+      },
+      "saude_financeira": {
+        "debt_to_equity": 57.146,
+        "divida_total_bi": 111.958,
+        "caixa_total_bi": 27.552,
+        "caixa_por_acao": 6.461,
+        "current_ratio": 1.24,
+        "quick_ratio": 0.666,
+        "book_value_por_acao": 44.839,
+        "ebitda_bi": 77.895,
+        "free_cash_flow_bi": 10.6,
+        "operating_cash_flow_bi": 48.816
+      },
+      "mercado": {
+        "market_cap_bi": 362.368,
+        "enterprise_value_bi": 451.59,
+        "acoes_em_circulacao_bi": 4.263,
+        "float_acoes_bi": 3.965,
+        "beta": 0.753,
+        "52w_max": 91.62,
+        "52w_min": 0.0,
+        "media_50d": 83.3096,
+        "media_200d": 73.7242,
+        "volume_medio_30d": 19939319,
+        "short_ratio": null,
+        "insider_ownership_pct": 6.45,
+        "institutional_ownership_pct": 60.59
+      },
+      "historico_financeiro": {
+        "anual": [
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 38403.0,
+            "lucro_bruto_mi": 13456.0,
+            "ebitda_mi": 9799.0,
+            "lucro_liquido_mi": 2352.0,
+            "lucro_operacional_mi": 11343.0,
+            "pesquisa_desenv_mi": 693.0
+          },
+          {
+            "periodo": "2024-12-31",
+            "receita_total_mi": 38056.0,
+            "lucro_bruto_mi": 13791.0,
+            "ebitda_mi": 11090.0,
+            "lucro_liquido_mi": 6166.0,
+            "lucro_operacional_mi": 11101.0,
+            "pesquisa_desenv_mi": 790.0
+          },
+          {
+            "periodo": "2023-12-31",
+            "receita_total_mi": 41784.0,
+            "lucro_bruto_mi": 17695.0,
+            "ebitda_mi": 15590.0,
+            "lucro_liquido_mi": 7983.0,
+            "lucro_operacional_mi": 15859.0,
+            "pesquisa_desenv_mi": 723.0
+          },
+          {
+            "periodo": "2022-12-31",
+            "receita_total_mi": 43839.0,
+            "lucro_bruto_mi": 19811.0,
+            "ebitda_mi": 23897.0,
+            "lucro_liquido_mi": 18788.0,
+            "lucro_operacional_mi": 17795.0,
+            "pesquisa_desenv_mi": 660.0
+          },
+          {
+            "periodo": "2021-12-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ],
+        "trimestral": [
+          {
+            "periodo": "2026-03-31",
+            "receita_total_mi": 9258.0,
+            "lucro_bruto_mi": 3085.0,
+            "ebitda_mi": 3887.0,
+            "lucro_liquido_mi": 1893.0,
+            "lucro_operacional_mi": 2594.0,
+            "pesquisa_desenv_mi": 131.0
+          },
+          {
+            "periodo": "2025-12-31",
+            "receita_total_mi": 11060.0,
+            "lucro_bruto_mi": 4281.0,
+            "ebitda_mi": -97.0,
+            "lucro_liquido_mi": -3844.0,
+            "lucro_operacional_mi": 3497.0,
+            "pesquisa_desenv_mi": 260.0
+          },
+          {
+            "periodo": "2025-09-30",
+            "receita_total_mi": 10420.0,
+            "lucro_bruto_mi": 3788.0,
+            "ebitda_mi": 3676.0,
+            "lucro_liquido_mi": 2685.0,
+            "lucro_operacional_mi": 3367.0,
+            "pesquisa_desenv_mi": 151.0
+          },
+          {
+            "periodo": "2025-06-30",
+            "receita_total_mi": 8804.0,
+            "lucro_bruto_mi": 2719.0,
+            "ebitda_mi": 3230.0,
+            "lucro_liquido_mi": 2117.0,
+            "lucro_operacional_mi": 2174.0,
+            "pesquisa_desenv_mi": 159.0
+          },
+          {
+            "periodo": "2025-03-31",
+            "receita_total_mi": 8119.0,
+            "lucro_bruto_mi": 2668.0,
+            "ebitda_mi": 3032.0,
+            "lucro_liquido_mi": 1394.0,
+            "lucro_operacional_mi": 2199.0,
+            "pesquisa_desenv_mi": 123.0
+          },
+          {
+            "periodo": "2024-12-31",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          },
+          {
+            "periodo": "2024-09-30",
+            "receita_total_mi": null,
+            "lucro_bruto_mi": null,
+            "ebitda_mi": null,
+            "lucro_liquido_mi": null,
+            "lucro_operacional_mi": null,
+            "pesquisa_desenv_mi": null
+          }
+        ]
+      }
+    }
+  },
+  "erros": []
+}

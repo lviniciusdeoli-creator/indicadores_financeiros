@@ -163,7 +163,7 @@ def coletar_indicadores(ticker: str) -> dict:
         "ev_receita":               safe_get(info, "enterpriseToRevenue"),
         "eps_ttm":                  safe_get(info, "trailingEps"),         # Lucro/ação (12m)
         "eps_forward":              safe_get(info, "forwardEps"),          # Lucro/ação estimado
-        "dividend_yield_ttm_pct":   formatar_percentual(safe_get(info, "dividendYield")),
+        "dividend_yield_ttm_pct":   _calcular_dividend_yield(info),  # calculado via dividendRate/preço — evita inconsistência do yfinance
         "dividendo_por_acao":       safe_get(info, "dividendRate"),
         "payout_ratio_pct":         formatar_percentual_forcado(safe_get(info, "payoutRatio")),
         "peg_ratio":                safe_get(info, "pegRatio"),
@@ -178,7 +178,7 @@ def coletar_indicadores(ticker: str) -> dict:
         "profit_margin_pct":             formatar_percentual_forcado(safe_get(info, "profitMargins")),
         "roe_pct":                       formatar_percentual_forcado(safe_get(info, "returnOnEquity")),
         "roa_pct":                       formatar_percentual_forcado(safe_get(info, "returnOnAssets")),
-        "roi_estimado_pct":              _calcular_roi(info),
+        "roic_pct":                      _calcular_roic(ativo, info),  # ROIC = NOPAT / Capital Investido
         "crescimento_receita_yoy_pct":   formatar_percentual_forcado(safe_get(info, "revenueGrowth")),
         "crescimento_lucro_yoy_pct":     formatar_percentual_forcado(safe_get(info, "earningsGrowth")),
         "crescimento_eps_qoq_pct":       formatar_percentual_forcado(safe_get(info, "earningsQuarterlyGrowth")),
@@ -235,19 +235,98 @@ def coletar_indicadores(ticker: str) -> dict:
     }
 
 
-def _calcular_roi(info: dict):
-    """ROI estimado = Lucro Líquido / (Ativo Total - Passivo Circulante)"""
+def _calcular_dividend_yield(info: dict):
+    """
+    Calcula o Dividend Yield diretamente: (dividendRate / preço) × 100.
+
+    Evita usar o campo 'dividendYield' do yfinance, que é notoriamente
+    inconsistente entre tickers:
+      - Alguns retornam decimal  (0.0084 → 0,84%)
+      - Outros retornam valor %  (8.44   → 8,44%)
+      - Outros retornam fração % (0.9    → 0,9%)  ← causa do bug do WEGE3
+
+    Usando dividendRate (R$/ação por ano) ÷ preço atual obtemos sempre
+    o valor bruto em reais, e a divisão sempre retorna o percentual correto.
+    """
     try:
-        lucro   = safe_get(info, "netIncomeToCommon")
-        ativo   = safe_get(info, "totalAssets")
-        passivo = safe_get(info, "totalCurrentLiabilities")
-        if lucro and ativo and passivo:
-            capital = ativo - passivo
-            if capital > 0:
-                return round((lucro / capital) * 100, 2)
+        div_rate = safe_get(info, "dividendRate")   # dividendo anualizado por ação
+        preco    = safe_get(info, "currentPrice") or safe_get(info, "regularMarketPrice")
+        if div_rate and preco and preco > 0:
+            return round((div_rate / preco) * 100, 2)
     except Exception:
         pass
+
+    # Fallback: usa trailingAnnualDividendYield se disponível (mais confiável que dividendYield)
+    try:
+        dy_trailing = safe_get(info, "trailingAnnualDividendYield")
+        if dy_trailing is not None:
+            return round(dy_trailing * 100, 2)   # este campo é sempre decimal
+    except Exception:
+        pass
+
     return None
+
+
+def _calcular_roic(ativo: yf.Ticker, info: dict):
+    """
+    ROIC (Return on Invested Capital) = NOPAT / Capital Investido
+
+    NOPAT          = Lucro Operacional × (1 − Alíquota Efetiva de IR)
+    Capital Invest. = Patrimônio Líquido + Dívida Total − Caixa e Equivalentes
+
+    Mais preciso que ROI pois isola o retorno gerado pelo capital produtivo,
+    excluindo o efeito do caixa ocioso e da alavancagem financeira.
+    """
+    try:
+        financials = ativo.financials
+        if financials is None or financials.empty:
+            return None
+
+        col = financials.columns[0]  # período anual mais recente
+
+        def pegar_fin(campo):
+            try:
+                v = financials.loc[campo, col]
+                return float(v) if v and str(v) != "nan" else None
+            except Exception:
+                return None
+
+        lucro_op      = pegar_fin("Operating Income")
+        tax_provision = pegar_fin("Tax Provision")
+        pretax_income = pegar_fin("Pretax Income")
+
+        if lucro_op is None:
+            return None
+
+        # Alíquota efetiva de IR (fallback: 25% — alíquota padrão BR/US)
+        aliquota = 0.25
+        if tax_provision and pretax_income and pretax_income > 0:
+            aliquota = max(0.0, min(tax_provision / pretax_income, 0.60))
+
+        nopat = lucro_op * (1 - aliquota)
+
+        # Capital investido
+        pl        = safe_get(info, "totalStockholderEquity")
+        divida    = safe_get(info, "totalDebt") or 0
+        caixa     = safe_get(info, "totalCash") or 0
+
+        # Fallback para PL via book value × shares
+        if pl is None:
+            bv     = safe_get(info, "bookValue") or 0
+            shares = safe_get(info, "sharesOutstanding") or 0
+            pl     = bv * shares if bv and shares else None
+
+        if pl is None:
+            return None
+
+        capital_investido = pl + divida - caixa
+        if capital_investido <= 0:
+            return None
+
+        return round((nopat / capital_investido) * 100, 2)
+
+    except Exception:
+        return None
 
 
 def _coletar_historico_financeiro(ativo: yf.Ticker) -> dict:

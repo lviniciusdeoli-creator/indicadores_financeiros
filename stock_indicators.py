@@ -185,15 +185,53 @@ def coletar_indicadores(ticker: str) -> dict:
     }
 
     # ── 4. SAÚDE FINANCEIRA ──────────────────────────────────
+    # Dívida Líquida = Dívida Total − Caixa (representa o endividamento real da empresa)
+    # É a métrica usada por plataformas como Status Invest, Fundamentus e Bloomberg.
+    # Diferente da Dívida Bruta, desconta o caixa disponível para quitar dívidas.
+    _divida_total  = safe_get(info, "totalDebt") or 0
+    _caixa_total   = safe_get(info, "totalCash") or 0
+    _divida_liq    = _divida_total - _caixa_total   # pode ser negativa (empresa com caixa líquido)
+
+    _pl_raw        = safe_get(info, "totalStockholderEquity")
+    if _pl_raw is None:
+        # Fallback: reconstrói PL via book value × shares
+        _bv     = safe_get(info, "bookValue") or 0
+        _shares = safe_get(info, "sharesOutstanding") or 0
+        _pl_raw = _bv * _shares if _bv and _shares else None
+
+    _ebitda_raw    = safe_get(info, "ebitda")
+    _ebit_raw      = _calcular_ebit(ativo)
+
     saude_financeira = {
-        "debt_to_equity":           safe_get(info, "debtToEquity"),
-        "divida_total_bi":          formatar_moeda_bilhoes(safe_get(info, "totalDebt")),
-        "caixa_total_bi":           formatar_moeda_bilhoes(safe_get(info, "totalCash")),
+        # ── Dívida Bruta (total sem descontar caixa) ─────────
+        "divida_bruta_bi":          formatar_moeda_bilhoes(_divida_total if _divida_total else None),
+
+        # ── Dívida Líquida (dívida total − caixa) ────────────
+        "divida_liquida_bi":        formatar_moeda_bilhoes(_divida_liq) if _divida_total else None,
+
+        # ── Índices de endividamento (baseados em dívida LÍQUIDA, como Status Invest) ──
+        # Dív. Líquida / Patrimônio Líquido — quanto da dívida líquida pesa sobre o PL
+        "div_liq_sobre_pl":         round(_divida_liq / _pl_raw, 2)
+                                    if _pl_raw and _pl_raw != 0 else None,
+
+        # Dív. Líquida / EBITDA — quantos anos de EBITDA para quitar a dívida líquida
+        "div_liq_sobre_ebitda":     round(_divida_liq / _ebitda_raw, 2)
+                                    if _ebitda_raw and _ebitda_raw > 0 else None,
+
+        # Dív. Líquida / EBIT — similar ao anterior, mas pelo lucro operacional
+        "div_liq_sobre_ebit":       round(_divida_liq / _ebit_raw, 2)
+                                    if _ebit_raw and _ebit_raw > 0 else None,
+
+        # ── Liquidez ──────────────────────────────────────────
+        "caixa_total_bi":           formatar_moeda_bilhoes(_caixa_total if _caixa_total else None),
         "caixa_por_acao":           safe_get(info, "totalCashPerShare"),
-        "current_ratio":            safe_get(info, "currentRatio"),
-        "quick_ratio":              safe_get(info, "quickRatio"),
+        "current_ratio":            safe_get(info, "currentRatio"),   # Liquidez Corrente
+        "quick_ratio":              safe_get(info, "quickRatio"),      # Liquidez Imediata
+
+        # ── Patrimônio e geração de caixa ────────────────────
         "book_value_por_acao":      safe_get(info, "bookValue"),
-        "ebitda_bi":                formatar_moeda_bilhoes(safe_get(info, "ebitda")),
+        "ebitda_bi":                formatar_moeda_bilhoes(_ebitda_raw),
+        "ebit_bi":                  formatar_moeda_bilhoes(_ebit_raw),
         "free_cash_flow_bi":        formatar_moeda_bilhoes(safe_get(info, "freeCashflow")),
         "operating_cash_flow_bi":   formatar_moeda_bilhoes(safe_get(info, "operatingCashflow")),
     }
@@ -233,6 +271,22 @@ def coletar_indicadores(ticker: str) -> dict:
         "mercado":              mercado,
         "historico_financeiro": historico,
     }
+
+
+def _calcular_ebit(ativo: yf.Ticker):
+    """
+    Extrai o EBIT (Lucro Operacional) do demonstrativo anual mais recente.
+    O yfinance não expõe EBIT diretamente em info{}, apenas no financials.
+    """
+    try:
+        fin = ativo.financials
+        if fin is None or fin.empty:
+            return None
+        col = fin.columns[0]
+        v = fin.loc["Operating Income", col]
+        return float(v) if v and str(v) != "nan" else None
+    except Exception:
+        return None
 
 
 def _calcular_dividend_yield(info: dict):

@@ -55,25 +55,32 @@
  *    peg_ratio               → PEG Ratio (P/E ÷ crescimento; < 1 = possível subvalorização)
  *
  *  [ RENTABILIDADE ]
- *    gross_margin_pct        → Margem Bruta %
- *    operating_margin_pct    → Margem Operacional %
- *    profit_margin_pct       → Margem de Lucro Líquido %
- *    roe_pct                 → ROE — Retorno sobre Patrimônio Líquido %
- *    roa_pct                 → ROA — Retorno sobre Ativos %
- *    roi_estimado_pct        → ROI estimado %
+ *    gross_margin_pct             → Margem Bruta %
+ *    operating_margin_pct         → Margem Operacional %
+ *    profit_margin_pct            → Margem de Lucro Líquido %
+ *    roe_pct                      → ROE — Retorno sobre Patrimônio Líquido %
+ *    roa_pct                      → ROA — Retorno sobre Ativos %
+ *    roic_pct                     → ROIC — Retorno sobre Capital Investido % (NOPAT / Capital Investido)
  *    crescimento_receita_yoy_pct  → Crescimento de Receita ano/ano %
  *    crescimento_lucro_yoy_pct    → Crescimento de Lucro ano/ano %
  *    crescimento_eps_qoq_pct      → Crescimento de EPS trimestre/trimestre %
  *
  *  [ SAÚDE FINANCEIRA ]
- *    debt_to_equity          → Dívida / Patrimônio Líquido
- *    divida_total_bi         → Dívida Total em bilhões
- *    caixa_total_bi          → Caixa total em bilhões
+ *  Nota: índices de endividamento usam DÍVIDA LÍQUIDA (dívida − caixa),
+ *  padrão adotado por Status Invest, Fundamentus e Bloomberg.
+ *
+ *    divida_bruta_bi         → Dívida Bruta total em bilhões (sem descontar caixa)
+ *    divida_liquida_bi       → Dívida Líquida em bilhões (dívida total − caixa)
+ *    div_liq_sobre_pl        → Dív. Líquida / Patrimônio Líquido
+ *    div_liq_sobre_ebitda    → Dív. Líquida / EBITDA (anos de EBITDA para quitar a dívida)
+ *    div_liq_sobre_ebit      → Dív. Líquida / EBIT
+ *    caixa_total_bi          → Caixa e equivalentes em bilhões
  *    caixa_por_acao          → Caixa por ação
  *    current_ratio           → Liquidez Corrente (Ativo Circ. / Passivo Circ.)
  *    quick_ratio             → Liquidez Imediata (sem estoques)
  *    book_value_por_acao     → Valor Patrimonial por Ação
  *    ebitda_bi               → EBITDA em bilhões
+ *    ebit_bi                 → EBIT (Lucro Operacional) em bilhões
  *    free_cash_flow_bi       → Free Cash Flow em bilhões
  *    operating_cash_flow_bi  → Fluxo de Caixa Operacional em bilhões
  *

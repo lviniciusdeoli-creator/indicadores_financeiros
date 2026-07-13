@@ -66,8 +66,6 @@
  *    crescimento_eps_qoq_pct      → Crescimento de EPS trimestre/trimestre %
  *
  *  [ SAÚDE FINANCEIRA ]
- *  Nota: índices de endividamento usam DÍVIDA LÍQUIDA (dívida − caixa),
- *  padrão adotado por Status Invest, Fundamentus e Bloomberg.
  *
  *    divida_bruta_bi         → Dívida Bruta total em bilhões (sem descontar caixa)
  *    divida_liquida_bi       → Dívida Líquida em bilhões (dívida total − caixa)

@@ -2,7 +2,7 @@
   "_metadados": {
     "script": "Análise Fundamentalista de Ações",
     "versao": "1.1",
-    "data_execucao": "2026-07-19 11:47:54",
+    "data_execucao": "2026-07-20 12:59:56",
     "total_ativos": 21,
     "sucesso": 21,
     "falhas": 0,
@@ -46,7 +46,7 @@
         "resumo_negocio": "Banco do Brasil S.A., together with its subsidiaries, provides banking products and services for individuals, companies, and public sectors in Brazil and internationally. The company operates through Banking, Investments, Fund Management, Insurance (including insurance, private pension funds and capitalization) and Electronic Payments segments. Its Banking segment offers various products and services, including deposits, loans, and other services to retail, wholesale, and public sectors. This segment also engages in the business with micro-entrepreneurs and other activities through banking correspondents. Its Investments segment engages in the structuring and distribution of debt and equity instruments in the primary and secondary markets; and provision of financial services. The company's Fund Management segment is involved in the purchase, sale, and custody of securities and portfolio management; and the structuring, organization, and management of investment funds and clubs. Its Insurance segment provides life, property, and automobile insurance products, as well as private pension and capitalization plans. The company's Electronic Payment segment provides capture, transmission, processing, and financial settlement services for electronic payment transactions. Its Other segment engages in the provision of credit recovery and consortium management services. This segment is also involved in the development, manufacturing, sale, rental, and integration of digital electronic systems, peripherals, programs, inputs, and computing supplies. The company was incorporated in 1808 and is headquartered in Brasília, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:45",
+        "data_coleta": "2026-07-20 12:59:45",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -101,7 +101,7 @@
         "52w_min": 0.0,
         "media_50d": 20.1208,
         "media_200d": 22.3354,
-        "volume_medio_30d": 22606409,
+        "volume_medio_30d": 22752914,
         "short_ratio": null,
         "insider_ownership_pct": 50.0,
         "institutional_ownership_pct": 24.47
@@ -216,7 +216,7 @@
         "resumo_negocio": "Itaú Unibanco Holding S.A. provides various financial products and services to personal and corporate customers in Brazil and internationally. It operates through three segments: Retail Business, Wholesale Business and Activities with the Market + Corporation. The company offers current accounts; funds management; payments and collections; loans; credit and debit cards; investment and commercial banking services; real estate lending and financing services; economic, financial and brokerage advisory; and leasing and foreign exchange services. The company also provides non-life insurance products covering loss, damage, or liability for objects or people, as well as life insurance products covering death and personal accidents. It serves retail customers, account and non-account holders, individuals and legal entities, high income clients, microenterprises, and small companies, as well as middle-market companies and high net worth institutional clients. The company was formerly known as Itaú Unibanco Banco Múltiplo S.A. and changed its name to Itaú Unibanco Holding S.A. in April 2009. The company was incorporated in 1924 and is headquartered in São Paulo, Brazil. Itaú Unibanco Holding S.A. is a subsidiary of IUPAR - Itaú Unibanco Participações S.A."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:46",
+        "data_coleta": "2026-07-20 12:59:45",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -232,7 +232,7 @@
         "dividend_yield_ttm_pct": 2.12,
         "dividendo_por_acao": 0.89,
         "payout_ratio_pct": 83.75,
-        "peg_ratio": 1.43
+        "peg_ratio": 1.41
       },
       "rentabilidade": {
         "gross_margin_pct": 0.0,
@@ -271,7 +271,7 @@
         "52w_min": 0.0,
         "media_50d": 40.8788,
         "media_200d": 41.637726,
-        "volume_medio_30d": 28118150,
+        "volume_medio_30d": 28264439,
         "short_ratio": null,
         "insider_ownership_pct": 0.01,
         "institutional_ownership_pct": 58.69
@@ -386,7 +386,7 @@
         "resumo_negocio": "BB Seguridade Participações S.A., through its subsidiaries operates in the insurance, pension plans, and bonds, businesses in Brazil. The company operates through two segments, Insurance and Brokerage. The Insurance segment offers insurance products and services, including life, property and vehicle insurance, property insurance, rural, special risks and financial, transport, hulls, and housing people, as well as supplementary pension, dental, and capitalization plans. Its Brokerage segment engages in the brokerage and administration, implementation, promotion, and viability of insurance businesses in the basic, life, and capitalization sectors, as well as open pension plans and dental plans. The company was founded in 1981 and is headquartered in Brasília, Brazil. BB Seguridade Participações S.A. operates as a subsidiary of Banco do Brasil S.A."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:46",
+        "data_coleta": "2026-07-20 12:59:46",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -441,7 +441,7 @@
         "52w_min": 0.0,
         "media_50d": 37.1564,
         "media_200d": 35.37085,
-        "volume_medio_30d": 5697890,
+        "volume_medio_30d": 5743193,
         "short_ratio": null,
         "insider_ownership_pct": 68.25,
         "institutional_ownership_pct": 13.19
@@ -556,7 +556,7 @@
         "resumo_negocio": "WEG S.A. produces and sells capital goods in Brazil and internationally. The company offers electric motors, generators, and transformers; reducers and gearmotors; hydraulic and steam turbines; frequency converters, starters engines and switching devices; control and protection of electrical circuits for industrial automation; sockets and switches; and solutions for electric traction of heavy vehicles, utility and locomotives, and electric propulsion of naval transport. It also provides solutions for generating renewable and distributed energy, in small hydroelectric plants, biomass, wind and solar; solutions for industry; UPSs and alternators for generator sets; substations electrical, conventional and mobile; industrial electronic systems; industrial paints, varnishes, and paints for automotive repainting. WEG S.A. was founded in 1961 and is headquartered in Jaraguá do Sul, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:47",
+        "data_coleta": "2026-07-20 12:59:47",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -611,7 +611,7 @@
         "52w_min": 0.0,
         "media_50d": 44.1424,
         "media_200d": 46.4963,
-        "volume_medio_30d": 7449803,
+        "volume_medio_30d": 7499006,
         "short_ratio": null,
         "insider_ownership_pct": 65.17,
         "institutional_ownership_pct": 20.46
@@ -726,7 +726,7 @@
         "resumo_negocio": "Embraer S.A., together with its subsidiaries, engages in the design, development, manufacture, and sale of aircraft and systems worldwide. The company operates through Commercial Aviation; Defense & Security; Executive Aviation; Services & Support; and Other segments. The Commercial Aviation segment develops, produces, and sells commercial jets. The Defense & Security segment develops and produces military aircraft; and is involved in research and development of software and integrated information systems, communications, border monitoring and surveillance, space systems/satellites, and aircraft modernization services and services support, as well as command, control, communications, computer, intelligence, surveillance, and reconnaissance systems. The Executive Aviation segment develops, produces, and sells executive jets. The Service & Support segment provides field and technical support, flight operations solutions, aircraft modification, materials management, maintenance solutions, and training programs. The Other segment engages in the supply of structural parts and hydraulic systems; production of agricultural crop-spraying aircraft; development and certification of eVTOLs; creation of a maintenance and service network, and air traffic control system for eVTOLs; development and manufacture of electrical propulsion systems; cybersecurity; and software and technical products. Additionally, the company is involved in leasing of used aircraft; pilot, mechanic, and crew training; engineering services; retail trade, maintenance, and repair of computer products; information technology consulting, data processing, application service providers, and internet hosting; and fabrication of aircraft interiors. The company was formerly known as Embraer-Empresa Brasileira de Aeronáutica S.A. and changed its name to Embraer S.A. in November 2010. Embraer S.A. was founded in 1969 and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:47",
+        "data_coleta": "2026-07-20 12:59:47",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -781,7 +781,7 @@
         "52w_min": 0.0,
         "media_50d": 76.7594,
         "media_200d": 84.28495,
-        "volume_medio_30d": 5057938,
+        "volume_medio_30d": 5079188,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 47.95
@@ -896,7 +896,7 @@
         "resumo_negocio": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:48",
+        "data_coleta": "2026-07-20 12:59:48",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -951,7 +951,7 @@
         "52w_min": 0.0,
         "media_50d": 79.5266,
         "media_200d": 77.2388,
-        "volume_medio_30d": 17875745,
+        "volume_medio_30d": 17905385,
         "short_ratio": null,
         "insider_ownership_pct": 6.45,
         "institutional_ownership_pct": 52.16
@@ -1075,7 +1075,7 @@
         "resumo_negocio": "Klabin S.A., together with its subsidiaries, produces and exports packaging paper and sustainable paper packaging solutions in Brazil and internationally. The company operates through Forestry, Pulp, Paper, and Packaging segments. It engages in the planting and growing of pine and eucalyptus trees, and in the forest management business. The company is also involved in the sale of commercial timber. In addition, it produces and sells hardwood (eucalyptus), softwood (pine), and fluff pulp, as well as paperboard, Kraftliner paper, recycled paper, corrugated cardboard boxes, corrugated cardboard, and industrial sacks. Klabin S.A. was founded in 1899, and is headquartered in São Paulo, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:48",
+        "data_coleta": "2026-07-20 12:59:49",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -1130,7 +1130,7 @@
         "52w_min": 0.0,
         "media_50d": 16.929,
         "media_200d": 18.188665,
-        "volume_medio_30d": 5332698,
+        "volume_medio_30d": 5359436,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 32.07
@@ -1245,7 +1245,7 @@
         "resumo_negocio": "Petróleo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petróleo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:48",
+        "data_coleta": "2026-07-20 12:59:49",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -1261,7 +1261,7 @@
         "dividend_yield_ttm_pct": 9.54,
         "dividendo_por_acao": 3.9,
         "payout_ratio_pct": 31.17,
-        "peg_ratio": 3.85
+        "peg_ratio": 3.95
       },
       "rentabilidade": {
         "gross_margin_pct": 47.36,
@@ -1300,7 +1300,7 @@
         "52w_min": 0.0,
         "media_50d": 41.1342,
         "media_200d": 38.3818,
-        "volume_medio_30d": 41322788,
+        "volume_medio_30d": 41313252,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 57.86
@@ -1424,7 +1424,7 @@
         "resumo_negocio": "Companhia de Saneamento do Paraná - SANEPAR provides sanitation services in Brazil. The company engages in water distribution; collection and treatment of sewage and solid waste; study, project, and construction work of new facilities; expansion of water distribution networks; and collection and treatment of sewage networks. It also provides consultancy and technical assistance services in its areas of activity. Companhia de Saneamento do Paraná - SANEPAR was founded in 1963 and is headquartered in Curitiba, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:49",
+        "data_coleta": "2026-07-20 12:59:50",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -1479,7 +1479,7 @@
         "52w_min": 0.0,
         "media_50d": 37.8436,
         "media_200d": 39.87505,
-        "volume_medio_30d": 1531293,
+        "volume_medio_30d": 1509083,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 22.7
@@ -1585,7 +1585,7 @@
         "resumo_negocio": "Companhia Energética de Minas Gerais - CEMIG, through its subsidiaries, engages in the generation, transmission, distribution, and sale of energy in Brazil. As of December 31, 2025, the company operated 32 hydro plants with a total capacity of 4,434 M, 2 wind farms with a total capacity of 71 MW, and 12 photovoltaic power stations with a total capacity of 169 MW; 365,577 miles of distribution lines; and 4,865 miles of transmission lines. It is also involved in the acquisition, transportation, and distribution of gas and its sub products and derivatives; sale and trading of energy; construction, implementation, operation and maintenance of electricity transmission; marketing and intermediation of energy-related business; installation, operation, maintenance and rental of solar plants; and distributed generation, account services, cogeneration, energy efficiency, and supply and storage management activities. The company was incorporated in 1952 and is headquartered in Belo Horizonte, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:49",
+        "data_coleta": "2026-07-20 12:59:50",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -1640,7 +1640,7 @@
         "52w_min": 0.0,
         "media_50d": 11.018,
         "media_200d": 11.54215,
-        "volume_medio_30d": 14799608,
+        "volume_medio_30d": 14884181,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 54.82
@@ -1764,7 +1764,7 @@
         "resumo_negocio": "Transmissora Aliança de Energia Elétrica S.A., together with its subsidiaries, engages in the construction, operation, and maintenance of electric power transmission lines in Brazil. It operates approximately a total length of 15,319 kilometers (km) of transmission lines, which include 14,677 km of transmission lines in operation and 642 km of lines under construction; 113 substations with voltage between 230 and 525KV; and one system operation center located in Rio de Janeiro. The company was founded in 2000 is headquartered in Rio De Janeiro, Brazil."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:50",
+        "data_coleta": "2026-07-20 12:59:51",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -1819,7 +1819,7 @@
         "52w_min": 0.0,
         "media_50d": 39.6702,
         "media_200d": 41.07825,
-        "volume_medio_30d": 1806050,
+        "volume_medio_30d": 1803560,
         "short_ratio": null,
         "insider_ownership_pct": 0.0,
         "institutional_ownership_pct": 17.33
@@ -1934,19 +1934,19 @@
         "resumo_negocio": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:50",
+        "data_coleta": "2026-07-20 12:59:51",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
         "preco_atual": 247.23,
         "pe_ratio_trailing": 29.572968,
-        "pe_ratio_forward": 24.94745,
+        "pe_ratio_forward": 24.914165,
         "pb_ratio": 6.016353,
         "ps_ratio": 3.5804608,
         "ev_ebitda": 17.656,
         "ev_receita": 3.705,
         "eps_ttm": 8.36,
-        "eps_forward": 9.91003,
+        "eps_forward": 9.92327,
         "dividend_yield_ttm_pct": 0.0,
         "dividendo_por_acao": null,
         "payout_ratio_pct": 0.0,
@@ -1958,7 +1958,7 @@
         "profit_margin_pct": 12.22,
         "roe_pct": 24.29,
         "roa_pct": 6.84,
-        "roic_pct": 12.03,
+        "roic_pct": 11.22,
         "crescimento_receita_yoy_pct": 16.6,
         "crescimento_lucro_yoy_pct": 74.8,
         "crescimento_eps_qoq_pct": 76.7
@@ -1989,7 +1989,7 @@
         "52w_min": 196.0,
         "media_50d": 252.133,
         "media_200d": 234.0625,
-        "volume_medio_30d": 49303666,
+        "volume_medio_30d": 49464986,
         "short_ratio": 1.6,
         "insider_ownership_pct": 8.9,
         "institutional_ownership_pct": 68.41
@@ -2085,7 +2085,7 @@
     "MCD": {
       "identificacao": {
         "ticker": "MCD",
-        "nome": null,
+        "nome": "McDonald's Corporation",
         "setor": "Consumer Cyclical",
         "industria": "Restaurants",
         "pais": "United States",
@@ -2095,7 +2095,7 @@
         "resumo_negocio": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally. It offers food and beverages, including hamburgers and cheeseburgers, various chicken sandwiches, fries, shakes, frozen desserts, sundaes, soft serve cones, cookies, pies, soft drinks, coffee, and other beverages; and full or limited breakfast, as well as sells various other products during limited-time promotions. The company owns and operates franchised restaurants under various structures, including conventional franchise, developmental license, or affiliate. McDonald's Corporation was founded in 1940 and is based in Chicago, Illinois."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:51",
+        "data_coleta": "2026-07-20 12:59:52",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -2103,7 +2103,7 @@
         "pe_ratio_trailing": 22.070074,
         "pe_ratio_forward": 18.91728,
         "pb_ratio": null,
-        "ps_ratio": 6.930319,
+        "ps_ratio": null,
         "ev_ebitda": 16.406,
         "ev_receita": 8.888,
         "eps_ttm": 12.13,
@@ -2119,7 +2119,7 @@
         "profit_margin_pct": 31.62,
         "roe_pct": null,
         "roa_pct": 13.56,
-        "roic_pct": 18.57,
+        "roic_pct": null,
         "crescimento_receita_yoy_pct": 9.4,
         "crescimento_lucro_yoy_pct": 6.9,
         "crescimento_eps_qoq_pct": 6.2
@@ -2127,30 +2127,30 @@
       "saude_financeira": {
         "divida_bruta_bi": 54.895,
         "divida_liquida_bi": 53.725,
-        "div_liq_sobre_pl": -41.78,
+        "div_liq_sobre_pl": null,
         "div_liq_sobre_ebitda": 3.61,
         "div_liq_sobre_ebit": 4.33,
         "caixa_total_bi": 1.17,
         "caixa_por_acao": 1.647,
         "current_ratio": 1.136,
         "quick_ratio": 0.869,
-        "book_value_por_acao": -1.81,
+        "book_value_por_acao": null,
         "ebitda_bi": 14.869,
         "ebit_bi": 12.394,
         "free_cash_flow_bi": 5.952,
         "operating_cash_flow_bi": 10.535
       },
       "mercado": {
-        "market_cap_bi": 190.21,
+        "market_cap_bi": null,
         "enterprise_value_bi": 243.935,
-        "acoes_em_circulacao_bi": 0.711,
+        "acoes_em_circulacao_bi": null,
         "float_acoes_bi": 0.709,
         "beta": 0.418,
         "52w_max": 341.75,
         "52w_min": 264.09,
         "media_50d": 277.0106,
         "media_200d": 302.0327,
-        "volume_medio_30d": 4436335,
+        "volume_medio_30d": 4469796,
         "short_ratio": 2.28,
         "insider_ownership_pct": 0.25,
         "institutional_ownership_pct": 77.13
@@ -2246,7 +2246,7 @@
     "KO": {
       "identificacao": {
         "ticker": "KO",
-        "nome": null,
+        "nome": "Coca-Cola Company (The)",
         "setor": "Consumer Defensive",
         "industria": "Beverages - Non-Alcoholic",
         "pais": "United States",
@@ -2256,19 +2256,19 @@
         "resumo_negocio": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke, Fanta, Sprite, Simply, Fanta Orange, Fanta Zero Orange, Fanta Zero Sugar, Fanta Apple, Sprite Zero Sugar, Simply Orange, Simply Apple, Simply Grapefruit, Fresca, Schweppes, Thums Up, Aquarius, Ayataka, BODYARMOR, Ciel, Costa, Crystal, Dasani, Fuze Tea, Georgia, glacéau smartwater, glacéau vitaminwater, Gold Peak, I LOHAS, Powerade, Topo Chico, Core Power, Del Valle, fairlife, innocent, Maaza, Minute Maid, Minute Maid Pulpy, Santa Clara, and dogadan brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The Coca-Cola Company was founded in 1886 and is headquartered in Atlanta, Georgia."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:51",
+        "data_coleta": "2026-07-20 12:59:52",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
         "preco_atual": 81.56,
         "pe_ratio_trailing": 25.647797,
-        "pe_ratio_forward": 23.415249,
+        "pe_ratio_forward": 23.42184,
         "pb_ratio": 10.435005,
-        "ps_ratio": 7.1201696,
+        "ps_ratio": null,
         "ev_ebitda": 22.964,
         "ev_receita": 7.788,
         "eps_ttm": 3.18,
-        "eps_forward": 3.4832,
+        "eps_forward": 3.48222,
         "dividend_yield_ttm_pct": 2.6,
         "dividendo_por_acao": 2.12,
         "payout_ratio_pct": 64.78,
@@ -2280,7 +2280,7 @@
         "profit_margin_pct": 27.8,
         "roe_pct": 43.37,
         "roa_pct": 9.51,
-        "roic_pct": 19.0,
+        "roic_pct": null,
         "crescimento_receita_yoy_pct": 12.1,
         "crescimento_lucro_yoy_pct": 18.2,
         "crescimento_eps_qoq_pct": 17.8
@@ -2288,7 +2288,7 @@
       "saude_financeira": {
         "divida_bruta_bi": 44.647,
         "divida_liquida_bi": 30.827,
-        "div_liq_sobre_pl": 0.92,
+        "div_liq_sobre_pl": null,
         "div_liq_sobre_ebitda": 1.84,
         "div_liq_sobre_ebit": 2.07,
         "caixa_total_bi": 13.82,
@@ -2302,16 +2302,16 @@
         "operating_cash_flow_bi": 14.631
       },
       "mercado": {
-        "market_cap_bi": 350.91,
+        "market_cap_bi": null,
         "enterprise_value_bi": 383.838,
-        "acoes_em_circulacao_bi": 4.302,
+        "acoes_em_circulacao_bi": null,
         "float_acoes_bi": 3.874,
         "beta": 0.349,
         "52w_max": 85.68,
         "52w_min": 65.35,
         "media_50d": 81.0598,
         "media_200d": 75.1713,
-        "volume_medio_30d": 17245275,
+        "volume_medio_30d": 17361726,
         "short_ratio": 2.44,
         "insider_ownership_pct": 9.9,
         "institutional_ownership_pct": 68.28
@@ -2435,7 +2435,7 @@
         "resumo_negocio": null
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:51",
+        "data_coleta": "2026-07-20 12:59:53",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -2503,7 +2503,7 @@
     "BAC": {
       "identificacao": {
         "ticker": "BAC",
-        "nome": null,
+        "nome": "Bank of America Corporation",
         "setor": "Financial Services",
         "industria": "Banks - Diversified",
         "pais": "United States",
@@ -2513,7 +2513,7 @@
         "resumo_negocio": "Bank of America Corporation, through its subsidiaries, provides various financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. It operates through four segments: Consumer Banking, Global Wealth & Investment Management (GWIM), Global Banking, and Global Markets. The Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, checking accounts, and investment accounts and products; credit and debit cards; residential mortgages and home equity loans; and direct and indirect loans. The GWIM segment provides investment management, brokerage, banking, and trust and retirement products and services; wealth management solutions; and customized solutions, including specialty asset management services. The Global Banking segment offers lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, and underwriting and advisory services. The Global Markets segment provides market-making, financing, securities clearing, settlement, and custody services; securities and derivative products; and risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. Bank of America Corporation was founded in 1784 and is based in Charlotte, North Carolina."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:52",
+        "data_coleta": "2026-07-20 12:59:53",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -2521,7 +2521,7 @@
         "pe_ratio_trailing": 14.150116,
         "pe_ratio_forward": 11.666899,
         "pb_ratio": 1.5573688,
-        "ps_ratio": 3.8164163,
+        "ps_ratio": null,
         "ev_ebitda": null,
         "ev_receita": 1.529,
         "eps_ttm": 4.33,
@@ -2545,7 +2545,7 @@
       "saude_financeira": {
         "divida_bruta_bi": 774.637,
         "divida_liquida_bi": -280.819,
-        "div_liq_sobre_pl": -1.01,
+        "div_liq_sobre_pl": null,
         "div_liq_sobre_ebitda": null,
         "div_liq_sobre_ebit": null,
         "caixa_total_bi": 1055.456,
@@ -2559,16 +2559,16 @@
         "operating_cash_flow_bi": null
       },
       "mercado": {
-        "market_cap_bi": 434.808,
+        "market_cap_bi": null,
         "enterprise_value_bi": 174.168,
-        "acoes_em_circulacao_bi": 7.097,
+        "acoes_em_circulacao_bi": null,
         "float_acoes_bi": 6.99,
         "beta": 1.175,
         "52w_max": 62.12,
         "52w_min": 44.75,
         "media_50d": 55.1222,
         "media_200d": 52.99145,
-        "volume_medio_30d": 35772635,
+        "volume_medio_30d": 35637773,
         "short_ratio": 0.0,
         "insider_ownership_pct": 7.42,
         "institutional_ownership_pct": 71.39
@@ -2692,7 +2692,7 @@
         "resumo_negocio": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:52",
+        "data_coleta": "2026-07-20 12:59:54",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -2747,7 +2747,7 @@
         "52w_min": 201.5,
         "media_50d": 302.6484,
         "media_200d": 274.21555,
-        "volume_medio_30d": 54830800,
+        "volume_medio_30d": 55129826,
         "short_ratio": 2.11,
         "insider_ownership_pct": 1.63,
         "institutional_ownership_pct": 66.2
@@ -2862,19 +2862,19 @@
         "resumo_negocio": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company has a strategic collaboration with Mayo Clinic, Inc. for the development of a frontier AI model for healthcare; and Global Objects, Inc. to build a retrieval-grounded generative AI world model. The company was founded in 1975 and is headquartered in Redmond, Washington."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:53",
+        "data_coleta": "2026-07-20 12:59:54",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
         "preco_atual": 393.82,
         "pe_ratio_trailing": 23.469606,
-        "pe_ratio_forward": 20.324642,
+        "pe_ratio_forward": 20.319849,
         "pb_ratio": 7.0606165,
         "ps_ratio": 9.191689,
         "ev_ebitda": 16.116,
         "ev_receita": 9.34,
         "eps_ttm": 16.78,
-        "eps_forward": 19.37648,
+        "eps_forward": 19.38105,
         "dividend_yield_ttm_pct": 0.92,
         "dividendo_por_acao": 3.64,
         "payout_ratio_pct": 20.73,
@@ -2917,7 +2917,7 @@
         "52w_min": 349.2,
         "media_50d": 401.5116,
         "media_200d": 439.34854,
-        "volume_medio_30d": 39362733,
+        "volume_medio_30d": 39555857,
         "short_ratio": 1.84,
         "insider_ownership_pct": 0.08,
         "institutional_ownership_pct": 76.16
@@ -3023,19 +3023,19 @@
         "resumo_negocio": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:53",
+        "data_coleta": "2026-07-20 12:59:55",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
         "preco_atual": 202.81,
         "pe_ratio_trailing": 31.058191,
-        "pe_ratio_forward": 15.80593,
+        "pe_ratio_forward": 15.790708,
         "pb_ratio": 25.131351,
         "ps_ratio": 19.378443,
         "ev_ebitda": 29.409,
         "ev_receita": 19.202,
         "eps_ttm": 6.53,
-        "eps_forward": 12.83126,
+        "eps_forward": 12.84363,
         "dividend_yield_ttm_pct": 0.49,
         "dividendo_por_acao": 1.0,
         "payout_ratio_pct": 0.61,
@@ -3078,7 +3078,7 @@
         "52w_min": 164.07,
         "media_50d": 209.9148,
         "media_200d": 192.395,
-        "volume_medio_30d": 156692337,
+        "volume_medio_30d": 157303991,
         "short_ratio": 1.9,
         "insider_ownership_pct": 3.98,
         "institutional_ownership_pct": 71.22
@@ -3193,19 +3193,19 @@
         "resumo_negocio": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations in the United States and internationally. It operates through Upstream, Downstream, and All Other segments. The Upstream segment engages in the exploration for, development, production, and transportation of crude oil and natural gas; processing, liquefaction, transportation, and regasification of liquefied natural gas; transportation of crude oil through pipelines; transportation, storage, and marketing of natural gas; carbon capture and storage; and operation of a gas-to-liquids plant. Its Downstream segment refines crude oil into petroleum products; markets crude oil, refined products, and lubricants; manufactures and markets renewable fuels; transports crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufactures and markets commodity petrochemicals, plastics for industrial uses, and fuel and lubricant additives. The All Other segment engages in cash management and debt financing; insurance; real estate; and technology activities. It has operations in North America, South America, Europe, Africa, Asia, and Australia. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in May 2005. Chevron Corporation was founded in 1879 and is headquartered in Houston, Texas."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:54",
+        "data_coleta": "2026-07-20 12:59:55",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
         "preco_atual": 187.38,
         "pe_ratio_trailing": 32.701572,
-        "pe_ratio_forward": 15.007461,
+        "pe_ratio_forward": 14.94864,
         "pb_ratio": 2.0168774,
         "ps_ratio": 2.0091827,
         "ev_ebitda": 10.982,
         "ev_receita": 2.241,
         "eps_ttm": 5.73,
-        "eps_forward": 12.48579,
+        "eps_forward": 12.53492,
         "dividend_yield_ttm_pct": 3.8,
         "dividendo_por_acao": 7.12,
         "payout_ratio_pct": 120.38,
@@ -3248,7 +3248,7 @@
         "52w_min": 146.49,
         "media_50d": 181.86,
         "media_200d": 173.4302,
-        "volume_medio_30d": 9465982,
+        "volume_medio_30d": 9462783,
         "short_ratio": 1.98,
         "insider_ownership_pct": 4.73,
         "institutional_ownership_pct": 70.33
@@ -3344,7 +3344,7 @@
     "AZN": {
       "identificacao": {
         "ticker": "AZN",
-        "nome": null,
+        "nome": "AstraZeneca PLC",
         "setor": "Healthcare",
         "industria": "Drug Manufacturers - General",
         "pais": "United Kingdom",
@@ -3354,7 +3354,7 @@
         "resumo_negocio": "AstraZeneca PLC, a biopharmaceutical company, focuses on the discovery, development, manufacture, and commercialization of prescription medicines. The company offers Imjudo, Datroway, Iressa, Tagrisso, Imfinzi, Lynparza, Calquence, Enhertu, Orpathys, Truqap, Zoladex, Faslodex, Crestor, Andexxa, Onglyza, Symlin, XIGDUO XR, Atacand, Atacand HCT, Atacand Plus, Farxiga/Forxiga, Plendil, Modip, Splendil, Munobal, Flodil, Tenormin, Tenormine, Prenormine, Atenol, Zestril, Brilinta/Brilique, Komboglyze, Qtern, Wainua, Byetta, Lokelma, Seloken ZOK, Toprol-XL, Betaloc ZOK, XIGDUO, Accolate, Accoleit, Vanticon, Bricanyl Respules, Eklira Genuair/Tudorza/Bretaris, Pulmicort Turbuhaler, Symbicort Turbuhaler, Airsupra, Bricanyl Turbuhaler, Fasenra, Rhinocort, Tezspire, Bevespi Aerosphere, Daliresp/Daxas, Oxis Turbuhaler, Saphnelo, Breztri Aerosphere, Duaklir Genuair, Pulmicort Respules, and Symbicort pMDI. It also provides Beyfortus, Kavigale, Evusheld, Fluenz/FluMist, Synagis, Kanuma, Ultomiris, Koselugo, Voydeya, Soliris, Strensiq, Nexium, and other medicines. The company offers its products for ocology, cardiovascular, renal and metabolism, respiratory & immunology, vaccines and immune, and therapies rare diseases. It serves primary and specialty care physicians through distributors and local representative offices in the United Kingdom, the Americas, rest of Europe, Asia, Africa, and Australasia. It has a strategic agreement with Tempus and Pathos to develop the largest multimodal foundation model in oncology; CSPC Pharmaceutical Group Limited to advance the discovery and development of novel oral candidates, with the potential to treat diseases across multiple indications; and Nucs AI Inc. to develop AI-driven Response Prediction for Therapeutic Radioconjugates. The company was formerly known as Zeneca Group PLC and changed its name to AstraZeneca PLC in April 1999. AstraZeneca PLC was incorporated in 1992 and is headquartered in Cambridge, the United Kingdom."
       },
       "meta": {
-        "data_coleta": "2026-07-19 11:47:54",
+        "data_coleta": "2026-07-20 12:59:56",
         "fonte_principal": "Yahoo Finance via yfinance"
       },
       "valuation": {
@@ -3362,7 +3362,7 @@
         "pe_ratio_trailing": 25.436747,
         "pe_ratio_forward": 19.24646,
         "pb_ratio": 5.527375,
-        "ps_ratio": 4.3340077,
+        "ps_ratio": null,
         "ev_ebitda": 14.383,
         "ev_receita": 4.766,
         "eps_ttm": 6.64,
@@ -3378,7 +3378,7 @@
         "profit_margin_pct": 17.19,
         "roe_pct": 23.48,
         "roa_pct": 8.49,
-        "roic_pct": 14.91,
+        "roic_pct": null,
         "crescimento_receita_yoy_pct": 12.5,
         "crescimento_lucro_yoy_pct": 5.3,
         "crescimento_eps_qoq_pct": 5.6
@@ -3386,7 +3386,7 @@
       "saude_financeira": {
         "divida_bruta_bi": 34.029,
         "divida_liquida_bi": 26.354,
-        "div_liq_sobre_pl": 0.56,
+        "div_liq_sobre_pl": null,
         "div_liq_sobre_ebitda": 1.32,
         "div_liq_sobre_ebit": 1.98,
         "caixa_total_bi": 7.675,
@@ -3400,16 +3400,16 @@
         "operating_cash_flow_bi": 14.221
       },
       "mercado": {
-        "market_cap_bi": 261.943,
+        "market_cap_bi": null,
         "enterprise_value_bi": 288.031,
-        "acoes_em_circulacao_bi": 1.551,
+        "acoes_em_circulacao_bi": null,
         "float_acoes_bi": 1.541,
         "beta": 0.225,
         "52w_max": 212.71,
         "52w_min": 137.22,
         "media_50d": 181.9976,
         "media_200d": 184.7178,
-        "volume_medio_30d": 2222975,
+        "volume_medio_30d": 2241311,
         "short_ratio": 0.74,
         "insider_ownership_pct": 0.05,
         "institutional_ownership_pct": 68.31
